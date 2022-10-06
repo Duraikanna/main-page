@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+ #login-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 88px;
+    
+}
+.formbox{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius:5%;
+    height: 510px;
+    width: 320px;
+    margin: 5% auto 0;
+    /* text-align: center; */
+    box-sizing: border-box;
+    padding:40px 20px;
+}
+.formbox h2{
+    
+    color:cyan;
+    margin-bottom: 30px;
+    
+}
+#remeber{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#forget{
+    display: flex;
+    align-items: flex-start;
+    font-size: 15px;
+    padding: 15px;
+    text-align: left;
+    text-decoration:none;
+    color: whitesmoke;
+}
+#forget:hover{
+    color:rgb(255, 251, 0);
+}
+#submit{
+    outline: none;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left:30px ;
+    padding-right:30px   ;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: white;
+}
+#submit:hover{
+    color:red;
+    box-shadow: 0 0 5px white , 0 0 10px white;
+    background-color: white;
+    font-size: bold;
+}
+
+#signup{
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px ;
+
+
+
+}
+#signup:hover{
+    color: rgb(255, 251, 0);
+}
+.inputbox{
+    border-radius: 10px;
+    padding: 10px ;
+    margin: 10px 0;
+    width: 100%;
+    border: 2px solid white;
+    outline: none;
+
+}
